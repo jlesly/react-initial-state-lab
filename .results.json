@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 5,
+    "passes": 2,
+    "pending": 0,
+    "failures": 3,
+    "start": "2022-01-01T20:13:36.089Z",
+    "end": "2022-01-01T20:13:36.113Z",
+    "duration": 24
+  },
+  "tests": [
+    {
+      "title": "should set the `currentSlideIndex` to 0 on its state",
+      "fullTitle": "<ImageSlider /> should set the `currentSlideIndex` to 0 on its state",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "render the correct text",
+      "fullTitle": "<ImageSlider /> render the correct text",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected ' I am on slide 0 ' to equal 'I am on slide 0'",
+        "showDiff": true,
+        "actual": " I am on slide 0 ",
+        "expected": "I am on slide 0",
+        "stack": "AssertionError: expected ' I am on slide 0 ' to equal 'I am on slide 0'\n    at Context.<anonymous> (test/index-test.js:23:31)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "should set the `secondsLeft` to the value of the `initialCount` prop",
+      "fullTitle": "<Bomb /> should set the `secondsLeft` to the value of the `initialCount` prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "render the correct text when the timer is not 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected ' 120 seconds left before I go boom! ' to equal '120 seconds left before I go boom!'",
+        "showDiff": true,
+        "actual": " 120 seconds left before I go boom! ",
+        "expected": "120 seconds left before I go boom!",
+        "stack": "AssertionError: expected ' 120 seconds left before I go boom! ' to equal '120 seconds left before I go boom!'\n    at Context.<anonymous> (test/index-test.js:36:31)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is 0",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected ' Boom! ' to equal 'Boom!'",
+        "showDiff": true,
+        "actual": " Boom! ",
+        "expected": "Boom!",
+        "stack": "AssertionError: expected ' Boom! ' to equal 'Boom!'\n    at Context.<anonymous> (test/index-test.js:41:31)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "render the correct text",
+      "fullTitle": "<ImageSlider /> render the correct text",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected ' I am on slide 0 ' to equal 'I am on slide 0'",
+        "showDiff": true,
+        "actual": " I am on slide 0 ",
+        "expected": "I am on slide 0",
+        "stack": "AssertionError: expected ' I am on slide 0 ' to equal 'I am on slide 0'\n    at Context.<anonymous> (test/index-test.js:23:31)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is not 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is not 0",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected ' 120 seconds left before I go boom! ' to equal '120 seconds left before I go boom!'",
+        "showDiff": true,
+        "actual": " 120 seconds left before I go boom! ",
+        "expected": "120 seconds left before I go boom!",
+        "stack": "AssertionError: expected ' 120 seconds left before I go boom! ' to equal '120 seconds left before I go boom!'\n    at Context.<anonymous> (test/index-test.js:36:31)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "render the correct text when the timer is 0",
+      "fullTitle": "<Bomb /> render the correct text when the timer is 0",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected ' Boom! ' to equal 'Boom!'",
+        "showDiff": true,
+        "actual": " Boom! ",
+        "expected": "Boom!",
+        "stack": "AssertionError: expected ' Boom! ' to equal 'Boom!'\n    at Context.<anonymous> (test/index-test.js:41:31)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should set the `currentSlideIndex` to 0 on its state",
+      "fullTitle": "<ImageSlider /> should set the `currentSlideIndex` to 0 on its state",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should set the `secondsLeft` to the value of the `initialCount` prop",
+      "fullTitle": "<Bomb /> should set the `secondsLeft` to the value of the `initialCount` prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
